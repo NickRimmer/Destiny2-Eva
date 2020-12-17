@@ -1,22 +1,15 @@
 let dataItems = {};
+let currentItemIndex = localStorage.getItem("itemIndex") || 0;
+let currentLang = localStorage.getItem("lang") || "en";
+let currentDataName;
 
 function loadData(name) {
-    const lang = "en";
-    $.getJSON(`/assets/json/${name}-${lang}.json`, function (data) {
+    $.getJSON(`/assets/json/${name}-${currentLang}.json`, function (data) {
         dataItems = data;
         updateRecipesList();
-        showItem(0);
+        showItem(Math.min(currentItemIndex, dataItems.recipes.length));
+        currentDataName = name;
     });
-}
-
-function recipesComparer(a, b) {
-    if (a.title < b.title) {
-        return -1;
-    }
-    if (a.title > b.title) {
-        return 1;
-    }
-    return 0;
 }
 
 function updateRecipesList() {
@@ -24,7 +17,7 @@ function updateRecipesList() {
     el.html("");
 
     //TODO: sort recipes
-    $.each(dataItems.recipes.sort(recipesComparer), (i, data) => {
+    $.each(dataItems.recipes, (i, data) => {
         const link = $(`<a href="javascript:void(0)">${data.title}</a>`);
         link.on("click", (e) => {
             showItem(i);
@@ -50,4 +43,13 @@ function showItem(i) {
 
     const ingredients = item.ingredients.map(x => buildItemCard(dataItems.ingredients[x]));
     $(".ingredients .items").html(ingredients);
+    
+    currentItemIndex = i;
+    localStorage.setItem("itemIndex", currentItemIndex)
+}
+
+function setLang(lang) {
+    localStorage.setItem("lang", lang);
+    currentLang = lang;
+    loadData(currentDataName);
 }
