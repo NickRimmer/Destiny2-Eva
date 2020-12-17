@@ -3,7 +3,7 @@ $item-card-padding-size: 20px;
 
 .common-container {
     padding: 80px;
-    padding-bottom: 50px;
+    padding-bottom: 0;
 }
 
 .header {
@@ -70,6 +70,9 @@ $item-card-padding-size: 20px;
                 margin-bottom: 3px;
                 border-radius: $items-margin;
                 background-color: transparent;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
 
                 transition: opacity 200ms ease-in, background-color 150ms ease-in;
 
@@ -85,6 +88,7 @@ $item-card-padding-size: 20px;
 .ingredients {
     margin-top: 50px;
     transition: opacity 150ms ease-in;
+    min-height: 360px;
 
     .items .item-card {
         margin-bottom: 25px;
@@ -128,6 +132,7 @@ $item-card-padding-size: 20px;
 .item-card {
     display: flex;
     width: $item-card-width;
+    align-items: start;
 
     .info {
         display: flex;
@@ -138,13 +143,13 @@ $item-card-padding-size: 20px;
         font-size: 24px;
         font-weight: 300;
 
-        div:nth-child(1) {
+        .title {
             font-weight: 400;
             text-transform: uppercase;
             margin-bottom: 5px;
         }
 
-        div:nth-child(2) {
+        .description {
             line-height: 1.1em;
         }
     }

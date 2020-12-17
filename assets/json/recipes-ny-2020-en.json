@@ -1,0 +1,227 @@
+{
+    "recipes": [
+        {
+            "title": "Gjallardoodles",
+            "description": "Commander Zavala in the Tower Courtyard",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/bb0069e9efc9698f366d63fdce0c6db7.jpg",
+            "ingredients": [0,1]
+        },
+        {
+            "title": "TRAVELER DONUT HOLES",
+            "description": "Ikora Rey in the Tower Bazaar",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/b063620b4693d4a9df8f5aa62311e7d4.jpg",
+            "ingredients": [2,11]
+        },
+        {
+            "title": "Chocolate Ship Cookies",
+            "description": "Amanda Holliday in the Tower Hangar",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/3df2100ceab56d4184930ace6e7010a7.jpg",
+            "ingredients": [2,10]
+        },
+        {
+            "title": "Telemetry Tapioca",
+            "description": "Banshee-44 in the Tower Courtyard",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/85bc7a8c18b58e6286fec57dc28ce077.jpg",
+            "ingredients": [0,14]
+        },
+        {
+            "title": "Eliksni Birdseed",
+            "description": "Hawthorne's falcon Louis in the Tower Bazaar",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/98f8ff6b26899071de1b2b6c1fc819b0.jpg",
+            "ingredients": [1,12]
+        },
+        {
+            "title": "Gentleman's Shortbread",
+            "description": "Devrim Kay in Trostland in the European Dead Zone",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/26a3ef37eeef4a9b0293a7537af2dda1.jpg",
+            "ingredients": [1,13]
+        },
+        {
+            "title": "Infinite Forest Cake",
+            "description": "Failsafe in the Exodus Black on Nessus",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/a6f21c09d4741ec548ccde23afc3e943.jpg",
+            "ingredients": [0,8]
+        },
+        {
+            "title": "Vanilla Blades",
+            "description": "Lord Shaxx in the Tower Courtyard",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/015e27d918af700828cdf30c2504e5ef.jpg",
+            "ingredients": [2,7]
+        },
+        {
+            "title": "Dark Chocolate Motes",
+            "description": "Drifter in the Annex",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/8a712271f7de627e4cf38eb392e8f6f9.jpg",
+            "ingredients": [4,10]
+        },
+        {
+            "title": "Candy Dead Ghosts",
+            "description": "Spider in his safehouse on the Tangled Shore",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/a32bb837abbc51c04a13240c18f89b28.jpg",
+            "ingredients": [5,11]
+        },
+        {
+            "title": "ILL-Fortune Cookies",
+            "description": "Petra Venj wherever she can be found in the Reef",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/5c1d4e4af15100f1e5b2154dd50927a9.jpg",
+            "ingredients": [5,8]
+        },
+        {
+            "title": "Strange Cookies",
+            "description": " Xûr wherever the Nine have wished him to be",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/72cc666b334a39996f74b09a4850e773.jpg",
+            "ingredients": [4,9]
+        },
+        {
+            "title": "Thousand-Layer Cookie",
+            "description": "Riven in the Dreaming City",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/a7bc9d420b9afdfb3397f825a1d76185.jpg",
+            "ingredients": [4,6]
+        },
+        {
+            "title": "Lavender Ribbon Cookies",
+            "description": "Saint-14 in the Tower Hangar",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/1cece8791684e7142627c7f2fa2da0dd.jpg",
+            "ingredients": [0,12]
+        },
+        {
+            "title": "Ascendant Oatmeal Raisin Cookies",
+            "description": "Eris Morn on the Moon",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/a715b29f574c308f314634bd5d8a679f.jpg",
+            "ingredients": [3,15]
+        },
+        {
+            "title": "Etheric Coldsnaps",
+            "description": "Variks on Europa",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/1944ff2bf6e26bec541914ecf2202640.jpg",
+            "ingredients": [3,9]
+        },
+        {
+            "title": "Blueberry Crumblers",
+            "description": "Shaw in the Cosmodrome",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/8e8528e4fc533b77cc86f5c34e2ab6f3.jpg",
+            "ingredients": [0,14]
+        },
+        {
+            "title": "Bittersweet Biscotti",
+            "description": "Crow in the Tangled Shore",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/867c9db19796d580d37d133b48e31bd1.jpg",
+            "ingredients": [5,16]
+        },
+        {
+            "title": "Bright-Dusted Snowballs",
+            "description": "Tess in the Tower",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/7d27ad2bc1c7c02215e15f31c90c36d4.jpg",
+            "ingredients": [3,18]
+        },
+        {
+            "title": "Classic Butter Cookies",
+            "description": "Eva in the Tower",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/3a2819131bdbb451a0ea2d36c3d8d4a4.jpg",
+            "ingredients": [4,19]
+        }
+    ],
+    "ingredients": [
+        {
+            "title": "Vex Milk",
+            "description": "collected from Vex, most commonly found on Nessus, and the Tangled Shore (Warden strike) (Best farm is the Nessus Artifact's Edge lost sector)",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/164be4c9058691eedad58cf950c4f8d0.jpg"
+        },
+        {
+            "title": "Ether Cane",
+            "description": "collected from Fallen, most commonly found in the EDZ, the Moon, on Nessus, and the Tangled Shore",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/d22b8aca25c15b82bf18c543f7c2045a.jpg"
+        },
+        {
+            "title": "Cabal Oil",
+            "description": "collected from Cabal, most commonly found in the EDZ, and the Tangled Shore",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/862dbd96dfe363621d95a83ce9ada1cb.jpg"
+        },
+        {
+            "title": "Chitin Powder",
+            "description": "collected from Hive, most commonly found on the Tangled Shore, the Moon, and the Dreaming City",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/8a52e59ade90e9de1bfe75187a841a54.jpg"
+        },
+        {
+            "title": "Taken Butter",
+            "description": "collected from Taken, most commonly found in the EDZ, and the Dreaming City (Shuro Chi checkpoint/Chamber of Starlight in Dreaming City are the best to farm this.)",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/cc2b721eeba1ff93b7d16e60034d696f.jpg"
+        },
+        {
+            "title": "Dark Ether Cane",
+            "description": "collected from Scorn, most commonly found on the Tangled Shore and Dreaming City (Tangled shore Lost Sector Kingship Dock is the best to farm this)",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/2fbf469af0aa2ed2219f0a9854cbaf27.jpg"
+        },
+
+        {
+            "title": "Delicious Explosions",
+            "description": "explosive kills of any kind (grenade, rocket launcher, grenade launcher)",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/9484a95d62bf16f28d92d95489da7092.jpg"
+        },
+        {
+            "title": "Sharp Flavor",
+            "description": "sword kills on any enemy type",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/b1fa823b599fb1fd3d3264d9e2fc1272.jpg"
+        },
+        {
+            "title": "Impossible Heat",
+            "description": "solar kills with either class abilities or weapon element",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/587b74ebe33a31c3d67316daaa1c6775.jpg"
+        },
+        {
+            "title": "Electric Flavor",
+            "description": "Arc kills with either class abilities or weapon element",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/e18671b8fd0b28f4f2e763c2d0b89952.jpg"
+        },
+        {
+            "title": "Null Taste",
+            "description": "Void kills with either class abilities or weapon element",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/332119f73f560572aa7fdfd245cb90e5.jpg"
+        },
+        {
+            "title": "Flash of Inspiration",
+            "description": "(RARE) GENERATE Orbs of Light with Masterwork weapons or supers",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/8725ad767c3b9c3bf0f170007b492034.jpg"
+        },
+        {
+            "title": "Personal Touch",
+            "description": "melee kills on any enemy type",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/06954590a246b60beccfeaf2088b7cc4.jpg"
+        },
+        {
+            "title": "Perfect Taste",
+            "description": "precision kills on any enemy type",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/13326575be1d6af65b1823972adbd082.jpg"
+        },
+        {
+            "title": "Bullet Spray",
+            "description": "kills with automatic weapons (heavy machine gun, auto rifle, submachine gun)",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/8f362597f7a89d00ab764a62d6af1a2a.jpg"
+        },
+        {
+            "title": "Finishing Touch",
+            "description": "finisher kills",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/4bd3835e4bd4e9cefc59cf7586323e4d.jpg"
+        },
+        {
+            "title": "Balanced Flavors",
+            "description": "Scout Rifles, Pulse rifles, Sniper Rifles or Bows kills",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/653ce8c5ead9153fc6b95e1bfdafee3f.jpg"
+        },
+        {
+            "title": "Pinch of Light",
+            "description": "picking up orbs of light",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/a5da475095401f2da5e74e8f50d78cbe.jpg"
+        },
+        {
+            "title": "Multifaceted Flavour",
+            "description": "multi kills (with weapons?)",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/7647f90014f018494837f536ec496f17.jpg"
+        },
+        {
+            "title": "Superb Texture",
+            "description": "super kills",
+            "image": "https://www.bungie.net/common/destiny2_content/icons/7da5c69667c72928f1c452bbdb871d52.jpg"
+        }
+    ]
+}
