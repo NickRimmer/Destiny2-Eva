@@ -11,6 +11,7 @@ body {
 
     color: white;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
+    opacity: 1;
 }
 
 html {
@@ -21,4 +22,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
+    transition: opacity 500ms ease-in-out;
+    opacity: 1;
+
+    &.loading{
+        opacity: 0;
+    }
 }

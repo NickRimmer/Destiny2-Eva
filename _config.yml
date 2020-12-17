@@ -3,7 +3,7 @@ default_lang: "en"
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+ignore_theme_config: true
 
 sass:
-  #style: compressed
+  style: compressed
