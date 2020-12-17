@@ -1,0 +1,24 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+
+    background-image: url(/assets/images/bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    min-height: 100%;
+
+    color: white;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

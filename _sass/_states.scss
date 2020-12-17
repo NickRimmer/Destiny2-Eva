@@ -1,0 +1,12 @@
+.recipes-opened {
+    .ingredients,
+    .recipes .selector {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .recipes-list {
+        opacity: 1;
+        pointer-events: all;
+    }
+}

@@ -1,0 +1,9 @@
+title: Destiny 2 - Eva Receipts
+default_lang: "en"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+sass:
+  #style: compressed
